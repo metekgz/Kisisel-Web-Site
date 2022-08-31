@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tanıtım Sayfası</title>
+    <meta name="keyword" content="Html,Css,JavaScript" />
+    <meta name="description" content="Mete Karagöz | Tanıtım Sayfası" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- tablet css -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css" />
+    <!-- mobile -->
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css" />
+  </head>
+  <body>
+    <header class="bg-dark-blue">
+      <div class="container">
+        <nav id="navbar">
+          <h1>Mete Karagöz</h1>
+
+          <ul>
+            <li><a href="#home">Ana Sayfa</a></li>
+            <li><a href="#training">Eğitimler</a></li>
+            <li><a href="#courses">Kurslar</a></li>
+            <li><a href="#contact">İletişim</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home">
+      <img
+        src="image/pinkypineblue_am_2ad5b698-ac16-4bf0-9d6b-4e7cc904bfef.png"
+        alt="profil resmi"
+      />
+
+      <div class="name text-center">
+        <h2 class="heading-big">Mete Karagöz</h2>
+        <p>Front-end Developer</p>
+      </div>
+
+      <a href="#courses" class="btn btn-primary">Kurslara Git</a>
+    </section>
+
+    <section id="training" class="bg-dark-blue">
+      <h3 class="text-center heading-medium">Eğitimler</h3>
+
+      <div class="items">
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Sınıf İçi Eğitimler</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil,
+            molestiae?
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Online Dersler</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil,
+            molestiae?
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Sertifikalar</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil,
+            molestiae?
+          </p>
+        </article>
+      </div>
+    </section>
+    <section id="courses">
+      <h3 class="text-center heading-medium">Kurslar</h3>
+      <div class="container">
+        <div class="courses">
+          <div class="course">
+            <div class="course-image">
+              <img src="image/html5-g5e3f58288_640.png" alt="HTML5" />
+              <span>BTK Akademi HTML5 Kursu</span>
+            </div>
+
+            <div class="course-info">
+              <div class="course-image">
+                <img src="image/javascript-g83aa19752_640.png" alt="HTML5" />
+                <span>JavaScript Kursu</span>
+              </div>
+              <div class="course-info">
+                <div class="title"></div>
+                <div class="course-image">
+                  <img src="image/angular.png" alt="HTML5" />
+                  <span>Engin Demiroğ Angular Kursu</span>
+                </div>
+                <div class="course-info">
+                  <div class="title"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="contact" class="bg-dark-blue">
+      <div class="contact-form">
+        <form>
+          <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+
+          <div class="form-group">
+            <label for="name">isim</label>
+            <input type="text" class="form-control" name="name" id="name" placeholder="isim">
+            <div class="form-group">
+              <label for="name">isim</label>
+              <input type="text" class="form-control" name="name" id="name" placeholder="isim">
+            
+          
+          </div>
+        </form>
+      </div>  
+    </footer>
+  </body>
+</html>

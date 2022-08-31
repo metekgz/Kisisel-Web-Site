@@ -1,0 +1,53 @@
+/* Sayfada genel kullanılan css */
+/* Text */
+.text-center{
+    text-align: center;
+}
+
+.heading-small{
+    font-size: 1.25rem;
+}
+
+.heading-medium{
+    font-size: 1.50rem;
+}
+
+.heading-big{
+    font-size: 1.75rem ;
+}
+
+/* Colors */
+.bg-dark-blue{
+    background:#022150;
+}
+
+.bg-light-blue{
+    background:#043176;
+}
+
+/* Container */
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Buttons */
+
+.btn{
+    margin-top: 0.25rem;
+    padding: 0.4rem 0.4rem;
+    border-radius: 0.4rem;
+}
+
+.btn-primary{
+    background: #30628e;
+}
+
+.btn-primary:hover{
+    color: #30628e;
+    background: #30628e;
+    background-color: seashell;
+    border: 0.2px #043176 solid;
+}
+
